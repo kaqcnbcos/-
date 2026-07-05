@@ -204,7 +204,7 @@ local Window = WindUI:CreateWindow({
     SideBarWidth = 150, -- 侧边栏（标签页）宽度
     HideSearchBar = false, -- 隐藏搜索栏
     ScrollBarEnabled = true, -- 位于滚动框右侧的滚动条
-Background = "rbxassetid://123887383447725",
+Background = "video:https://raw.githubusercontent.com/xiaoxi9008/shipin/refs/heads/main/Video_1782398609786_80.mp4",
     
     User = { -- 位于左下角的用户信息
         Enabled = false,
@@ -214,8 +214,6 @@ Background = "rbxassetid://123887383447725",
         end,
     },
 })
-
-
 
 -- 编辑窗口展开按钮配置
 Window:EditOpenButton({
@@ -4985,7 +4983,6 @@ local ThemeSelectDropdown = SettingsTab:Dropdown({
         WindUI:SetTheme(theme)
     end
 })
-
 
 SettingsTab:Divider()
 SettingsTab:Section({ 
